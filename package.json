@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "canvas": "^2.10.2",
+    "reload": "^3.2.0"
+  },
+  "scripts": {
+  	"font-canvas": "reload -b -s font-canvas.html"
+  }
+}

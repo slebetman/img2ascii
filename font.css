@@ -1,0 +1,39 @@
+@font-face {
+	font-family: "Carbon";
+	src: url("font/carbon.ttf");
+}
+
+@font-face {
+	font-family: "CMU";
+	src: url("font/cmuntt.ttf");
+}
+
+@font-face {
+	font-family: "Erika Typewriter";
+	src: url("font/Erika Type.ttf");
+}
+
+@font-face {
+	font-family: "Erika Typewriter Bold";
+	src: url("font/Erika Type_B.ttf");
+}
+
+@font-face {
+	font-family: "Droid Sans Mono";
+	src: url("font/DroidSansMono.ttf");
+}
+
+@font-face {
+	font-family: "JMH Typewriter";
+	src: url("font/JMH Typewriter mono.ttf");
+}
+
+@font-face {
+	font-family: "JMH Typewriter Bold";
+	src: url("font/JMH Typewriter mono Bold.ttf");
+}
+
+@font-face {
+	font-family: "Underwood Champion";
+	src: url("font/Underwood Champion.ttf");
+}
