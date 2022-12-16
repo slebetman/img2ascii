@@ -1,5 +1,7 @@
-import {get, div} from "./lib/util.js"
-import {generateCharScale, getMetricsForFont} from "./lib/canvaslib.js"
+import { div, get } from "./lib/util.js"
+import { generateCharScale, getMetricsForFont } from "./lib/canvaslib.js"
+import { fontCharScale } from "./lib/components/fontCharScale.js";
+import { fontStatDownloader } from "./lib/components/fontStatDownloader.js";
 
 const fonts = [
 	// 'Carbon',
@@ -30,23 +32,17 @@ window.onload = async () => {
 	let log = get('#message');
 	log.innerHTML = 'Scanning fonts..';
 
+	const fontScales = div({
+		id: 'font-scales'
+	},[]);
+
+	document.body.appendChild(fontScales);
+
 	for (let theFont of fonts) {
 
 		let charscale = (await generateCharScale(ctx, theFont)).join('');
 		
-		document.body.appendChild(div({},[
-			div({
-				style: {
-					font: `20px "${theFont}"`,
-					marginTop: '15px',
-				}
-			}, `${theFont} (${charscale.length} levels)`),
-			div({
-				style: {
-					font: `15px "${theFont}"`
-				}
-			}, charscale)
-		]))
+		fontScales.appendChild(fontCharScale({}, theFont, charscale));
 
 		let metrics = await getMetricsForFont(ctx, theFont, 15);
 
@@ -58,6 +54,8 @@ window.onload = async () => {
 			
 		console.log(charscale);
 	}
+
+	document.body.insertBefore(fontStatDownloader({}, fontStats), fontScales);
 	
 	log.innerHTML = '';
 	console.log('font stats', fontStats);
