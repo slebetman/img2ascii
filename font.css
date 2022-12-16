@@ -37,3 +37,53 @@
 	font-family: "Underwood Champion";
 	src: url("font/Underwood Champion.ttf");
 }
+
+@font-face {
+	font-family: "Cutive Mono";
+	src: url("font/CutiveMono-Regular.ttf");
+}
+
+@font-face {
+	font-family: "DEC Terminal";
+	src: url("font/DECTerm.ttf");
+}
+
+@font-face {
+	font-family: "Iconsolata";
+	src: url("font/Inconsolata-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Iconsolata Bold";
+	src: url("font/Inconsolata-Bold.ttf");
+}
+
+@font-face {
+	font-family: "Microscan";
+	src: url("font/Microscan.TTF");
+}
+
+@font-face {
+	font-family: "Nouveau IBM";
+	src: url("font/Nouveau_IBM.ttf");
+}
+
+@font-face {
+	font-family: "PT Mono";
+	src: url("font/PT_Mono.ttf");
+}
+
+@font-face {
+	font-family: "SV Basic";
+	src: url("font/SVBasicManual.ttf");
+}
+
+@font-face {
+	font-family: "SV Basic Bold";
+	src: url("font/SVBasicManual-Bold.ttf");
+}
+
+@font-face {
+	font-family: "Whiterabbit";
+	src: url("font/WHITRABT.TTF");
+}
