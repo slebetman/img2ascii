@@ -1,12 +1,13 @@
-import { div, get } from "./lib/util.js"
+import { get } from "./lib/util.js"
 import { generateCharScale, getMetricsForFont } from "./lib/canvaslib.js"
-import { fontCharScale } from "./lib/components/fontCharScale.js";
-import { fontStatDownloader } from "./lib/components/fontStatDownloader.js";
+import { FONT_CHAR_SCALE } from "./lib/components/fontCharScale.js";
+import { FONT_STAT_DOWNLOADER } from "./lib/components/fontStatDownloader.js";
+import { DIV } from "./lib/components/basic.js";
 
 const fonts = [
 	// 'Carbon',
 	'CMU',
-	'Erika Typewriter',
+	'Erika Typewriter', 
 	'Erika Typewriter Bold',
 	'Droid Sans Mono',
 	'JMH Typewriter',
@@ -32,19 +33,21 @@ window.onload = async () => {
 	let log = get('#message');
 	log.innerHTML = 'Scanning fonts..';
 
-	const fontScales = div({
+	const fontScales = DIV({
 		id: 'font-scales'
 	},[]);
 
 	document.body.appendChild(fontScales);
 
+	const fontSize = 40;
+
 	for (let theFont of fonts) {
 
-		let charscale = (await generateCharScale(ctx, theFont)).join('');
+		let charscale = (await generateCharScale(ctx, theFont, fontSize)).join('');
 		
-		fontScales.appendChild(fontCharScale({}, theFont, charscale));
+		fontScales.appendChild(FONT_CHAR_SCALE({}, theFont, charscale));
 
-		let metrics = await getMetricsForFont(ctx, theFont, 15);
+		let metrics = await getMetricsForFont(ctx, theFont, fontSize);
 
 		fontStats.push({
 			font: theFont,
@@ -55,7 +58,7 @@ window.onload = async () => {
 		console.log(charscale);
 	}
 
-	document.body.insertBefore(fontStatDownloader({}, fontStats), fontScales);
+	document.body.insertBefore(FONT_STAT_DOWNLOADER({}, fontStats), fontScales);
 	
 	log.innerHTML = '';
 	console.log('font stats', fontStats);
