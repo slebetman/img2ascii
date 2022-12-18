@@ -6,7 +6,7 @@ import { DIV } from "./lib/components/basic.js";
 
 const fonts = [
 	// 'Carbon',
-	'CMU',
+	// 'CMU',
 	'Erika Typewriter', 
 	'Erika Typewriter Bold',
 	'Droid Sans Mono',
@@ -14,7 +14,7 @@ const fonts = [
 	'JMH Typewriter Bold',
 	'Underwood Champion',
 	'Nouveau IBM',
-	'PT Mono',
+	// 'PT Mono',
 	'Iconsolata',
 	'Iconsolata Bold',
 	'SV Basic',
