@@ -1,0 +1,98 @@
+[
+  {
+    "font": "Erika Typewriter",
+    "metrics": {
+      "width": 25,
+      "height": 45
+    },
+    "charscale": " .~><,:_*!^1+;)(ivoct7lJI3uje#z2r54sfnC0VOLbaypq69xYPdAZUkhTDSwGmF8QR&XBEgHK$N%WM"
+  },
+  {
+    "font": "Erika Typewriter Bold",
+    "metrics": {
+      "width": 25,
+      "height": 45
+    },
+    "charscale": " .~,<>:_^*!;1+)(ovictl7JI3u#ej4rz2s0bnaf5VOCpqLyx96dAPYwkhZUDTSGm8g&QFBRXE$KHNW%M"
+  },
+  {
+    "font": "Droid Sans Mono",
+    "metrics": {
+      "width": 25,
+      "height": 53
+    },
+    "charscale": " .,:~;_!+^<>r1*()JciLtzv7sTlxfIYjunoCF23ay5eVSkX4Zh96P0AEKUmGw$bdpq8#HO%RDWNQg&BM@"
+  },
+  {
+    "font": "JMH Typewriter",
+    "metrics": {
+      "width": 30,
+      "height": 39
+    },
+    "charscale": " ^.:,~;_<>!t)(7vc1l+irz*uJIyoj43sx52aefnLCqYwhVbFk6Ap%d90T$UGZm#SOPgE8&DKXBQHR@NWM"
+  },
+  {
+    "font": "JMH Typewriter Bold",
+    "metrics": {
+      "width": 30,
+      "height": 38
+    },
+    "charscale": " ^.:,~;<>_!t)(crl+71vizIuJjos*y4efxan352LqbCYdhwpkV9F60TAUmGPZO$S%DEg8B#&KXHRQNWM@"
+  },
+  {
+    "font": "Underwood Champion",
+    "metrics": {
+      "width": 24,
+      "height": 44
+    },
+    "charscale": " .,_:*;c!srzve(ox)uijatfnIJlkCyVw10Tq4mb7UPAphLO9Y63ZHSg5XDF#d2R@EQ%8&WKBNG$M"
+  },
+  {
+    "font": "Nouveau IBM",
+    "metrics": {
+      "width": 22,
+      "height": 40
+    },
+    "charscale": " .,:_~;^+><()il%c!r*Istvx17zafeunoJCLj32Y54TF9PS6wkbdXGhqpVZygAEU&O#@KD$8mHR0BWQNM"
+  },
+  {
+    "font": "Iconsolata",
+    "metrics": {
+      "width": 20,
+      "height": 42
+    },
+    "charscale": " .,:~_^;!+1r<>*viLc7)(JTtxflIYsFC3uzVjny2eoASaZX54hU9wPkG%6E#KOdDqmHp8b$W@0&RMgNQB"
+  },
+  {
+    "font": "Iconsolata Bold",
+    "metrics": {
+      "width": 20,
+      "height": 42
+    },
+    "charscale": " .,:~_^;+!<>r1*v()ci7LtTxsJlfzYIFyonju2CeVa34%ASZw5XPhkUE69pGqbdmK$OD&Hg0#8@RMNWBQ"
+  },
+  {
+    "font": "SV Basic",
+    "metrics": {
+      "width": 21,
+      "height": 42
+    },
+    "charscale": " .,_:~;!)(><+1i^LT*xjvIlY7yrtcufFJ3nz52oVX4CshkweZ6USEP9aAGmbKHdpOq0#%&DR8NQgMW@B$"
+  },
+  {
+    "font": "SV Basic Bold",
+    "metrics": {
+      "width": 21,
+      "height": 42
+    },
+    "charscale": " ._,~:;+!><i()^*1LTrIl7zxvcjtFy3fY5Jusn2oeZECS6a4XPk9VhwpqGbdUAmOK0HR%&g#D8Q@BN$WM"
+  },
+  {
+    "font": "DEC Terminal",
+    "metrics": {
+      "width": 17,
+      "height": 40
+    },
+    "charscale": " .,_!:^;)(l+><r~vixYVL7T1JtcufIjn*XwzkoC4FhsZKeGmUP03pqayA%2HbdOS6E9D$WMN#RQ&58Bg@"
+  }
+]
