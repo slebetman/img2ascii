@@ -1,8 +1,10 @@
 {
   "dependencies": {
+    "jimp": "^0.16.2",
+    "jspdf": "^2.5.1",
     "reload": "^3.2.0"
   },
   "scripts": {
-  	"font-canvas": "reload -b -s font-canvas.html"
+    "font-canvas": "reload -b -s font-canvas.html"
   }
 }
